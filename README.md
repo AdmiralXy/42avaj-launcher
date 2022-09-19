@@ -26,8 +26,13 @@ Java program that simulates aircraft flying in the sky. The program reads a text
   * Height
   * The 5 arguments must be separated by spaces.
   * The longitude, latitude and height must be integers.
+
+
+### Simulation rules
+
 * The aircraft simulation stops when the altitude is 0 or less.
 * The simulation stops when all aircraft have landed or the required number of simulation runs has been reached.
+* The simulation stops when an error occurs. (invalid write to file, invalid scenario file, invalid aircraft type, invalid coordinates, etc.)
 
 ### How to run (on Linux / macOS)
 
