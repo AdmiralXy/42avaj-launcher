@@ -51,7 +51,7 @@ find * -name "*.java" > sources.txt
 javac @sources.txt
 ```
 
-3. Run the program with `java -classpath src/main/java/ com.admiralxy.avaj.Simulation scenario.txt` where scenario.txt is the text file containing the number of times the simulation should run and the different types of aircrafts and their initial coordinates.
+3. Run the program with `java -classpath src/main/java/ com.admiralxy.avaj.Simulation scenario.txt` where `scenario.txt` is the path to the scenario file you want to use.
 
 
 4. The output will be in a text file called `simulation.txt`
