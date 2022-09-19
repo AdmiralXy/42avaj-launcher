@@ -25,6 +25,9 @@ public class Simulation {
 
         int numberOfSimulations = scanner.nextInt();
 
+        if (numberOfSimulations < 0)
+            throw new ParserException("Number of simulations must be positive");
+
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
 
