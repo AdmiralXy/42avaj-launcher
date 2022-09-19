@@ -14,6 +14,21 @@ Java program that simulates aircraft flying in the sky. The program reads a text
 * Exception handling
 * File handling
 
+### Scenario file rules
+
+* The first line of the scenario file must contain a single integer, the number of times the simulation should run.
+* Each following line describes an aircraft and its initial coordinates.
+* The line is made of 5 arguments separated by spaces:
+  * Aircraft type (Helicopter, JetPlane or Balloon)
+  * Name
+  * Longitude
+  * Latitude
+  * Height
+  * The 5 arguments must be separated by spaces.
+  * The longitude, latitude and height must be integers.
+* The aircraft simulation stops when the altitude is 0 or less.
+* The simulation stops when all aircraft have landed or the required number of simulation runs has been reached.
+
 ### How to run (on Linux / macOS)
 
 1. Make sure you have JDK 1.8+ installed
