@@ -49,7 +49,9 @@ public class Simulation {
                 if (longitude < 0 || latitude < 0 || height < 0)
                     throw new ParserException("Coordinates must be positive: " + line);
 
-                AircraftFactory.newAircraft(type, name, longitude, latitude, height)
+                AircraftFactory aircraftFactory = new AircraftFactory();
+
+                aircraftFactory.newAircraft(type, name, longitude, latitude, height)
                         .registerTower(weatherTower);
             } catch (NumberFormatException e) {
                 throw new ParserException("Invalid number format: " + line);

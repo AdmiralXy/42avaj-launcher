@@ -10,7 +10,7 @@ public class AircraftFactory {
         put("502dd302b6d8d3c24b20ee49e2d51bd1", "Balloon");
     }};
 
-    public static Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
+    public Flyable newAircraft(String type, String name, int longitude, int latitude, int height) {
         Coordinates coordinates = new Coordinates(longitude, latitude, height);
         if (md5Hashes.containsKey(type))
             type = md5Hashes.get(type);
