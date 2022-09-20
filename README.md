@@ -36,13 +36,13 @@ Java program that simulates aircraft flying in the sky. The program reads a text
 
 ### How to run (on Linux / macOS)
 
-1. Make sure you have JDK 1.8+ installed
+1. Make sure you have JDK 18+ installed
 2. Execute `bash run.sh` to compile and run the program with the default `scenario.txt` file
 3. Execute `bash clean.sh` to remove the .class files and the output file
 
 ### How to run (on Windows)
 
-1. Make sure you have JDK 1.8+ installed
+1. Make sure you have JDK 18+ installed
 
 2. Compile the program to create the .class files:
 
