@@ -16,7 +16,7 @@ public class JetPlane extends Aircraft implements Flyable {
         put("SUN", new Coordinates(10, 0, 2));
         put("RAIN", new Coordinates(5, 0, 0));
         put("FOG", new Coordinates(1, 0, 0));
-        put("SNOW", new Coordinates(0, 0, -12));
+        put("SNOW", new Coordinates(0, 0, -7));
     }};
 
     JetPlane(String name, Coordinates coordinates) {
